@@ -1,0 +1,23 @@
+baseurl = "https://example.com/"
+title = "console-demo"
+theme = "hugo-theme-console"
+languageCode = "en-us"
+themesDir = "themes"
+baseURL = ""
+publishDir = "public"
+
+[params]
+titleCutting = true
+animateStyle = "animated zoomIn fast"
+
+  [[params.navlinks]]
+  name = "about/"
+  url = "about/"
+
+  [[params.navlinks]]
+  name = "posts/"
+  url = "posts/"
+
+  [[params.navlinks]]
+  name = "photos/"
+  url = "photos/"
